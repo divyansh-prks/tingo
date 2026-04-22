@@ -12,11 +12,115 @@
 }
 
 .container{
-  max-width: 700px;
-  background: yellow;
+  max-width: 900px;
+  font-size: large;
   margin: 0 auto;
+
 }
 .layout{
   height: 100vh;
   background-image: linear-gradient(to bottom ,white , oklch(93.2% 0.032 255.585) , white);
+}
+
+.navbar-root{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0 ;
+}
+.logo{
+  font-size: 30px;
+  color: black;
+  font-weight: 800;
+}
+
+.links{
+  display: flex;
+  gap: 16px;
+}
+.link-items{
+  font-size: 30px;
+  color: oklch(37.4% 0.01 67.558);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.link-items:hover{
+  color: rgb(64, 64, 196);
+  transition: color 0.2s ease-out ;
+}
+
+.btn{
+  all: unset;
+  display: flex;
+  align-items: center;
+  border-radius: 9px;
+  padding: 4px 18px;
+  color: white;
+  background-color: oklch(62.3% 0.214 259.815);
+  font-size: 30px;
+  text-shadow: 0px 1px 0px rgba(0,0,0,0.25);
+  box-shadow: 0px 6px 10px rgba(0,0,0,0.25);
+  cursor: pointer;
+}
+
+.badge{
+  max-width: 500px;
+  font-size: 16px;
+  width: fit-content;
+  background-color: oklch(92.2% 0.005 34.3);
+  border: 0.5px solid oklch(71.4% 0.014 41.2);
+  padding: 3px 12px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin: 150px auto 0;
+}
+
+
+.hero-title {
+  font-size: 80px;
+  font-weight: bold;
+text-align: center;
+letter-spacing: -0.2px;
+line-height: 1.1;
+margin-top: 20px;
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  color: oklch(55.1% 0.027 264.364);
+  font-weight: 200;
+  text-align: center;
+  /* margin-top: 50px; */
+  margin: 30px  auto;
+  max-width: 700px;
+}
+
+.hero-cta {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+  
+
+}
+
+.btn-2{
+  font-size: 30px;
+  background: transparent;
+  padding: 3px 19px;
+  border-radius: 10px;
+  color: black;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+
+  &:hover{
+    background: oklch(96.7% 0.001 286.375);
+    transition: color 0.25s ease-out;
+  }
 }
