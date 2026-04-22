@@ -6,7 +6,11 @@ export default function Home() {
   return (
 
     <div className="layout">
+<div className="layout-line">
+  <div className="left-line"></div>
+  <div className="right-line"></div>
 
+</div>
       <Container > 
 
       <Navbar /> 

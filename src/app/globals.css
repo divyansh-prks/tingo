@@ -17,9 +17,34 @@
   margin: 0 auto;
 
 }
+.layout-line{
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-line{
+  background-color:  oklch(87.2% 0.01 258.338);
+  background : linear-gradient(to bottom ,  oklch(87.2% 0.01 258.338) , white);
+  size: 3px;
+  width: 6px;
+  height:900px;
+  position: absolute;
+  margin-left: 400px;
+}
+
+.right-line{
+  background : linear-gradient(to bottom ,  oklch(87.2% 0.01 258.338) , white);
+  size: 3px;
+  width: 6px;
+  height:900px;
+  right: 400px;
+  position: absolute;
+
+}
 .layout{
   height: 100vh;
   background-image: linear-gradient(to bottom ,white , oklch(93.2% 0.032 255.585) , white);
+  position: relative;
 }
 
 .navbar-root{
