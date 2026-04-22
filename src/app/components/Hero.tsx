@@ -22,6 +22,12 @@ const Hero = () => {
             <button className='btn'>Start free trial</button>
             <button className='btn-2'>Pricing</button>
         </div>
+{/* /home/divyansh/Downloads/codehouse/frontend/typescriptManu/my-app/public/hero-ui-v6.webp */}
+
+<div className='image'>
+        <img className='orgImg' src="/hero-ui-v6.webp " alt="" />
+
+</div>
     </div>
   )
 }

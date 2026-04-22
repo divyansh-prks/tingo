@@ -149,3 +149,20 @@ margin-top: 20px;
     transition: color 0.25s ease-out;
   }
 }
+
+
+.image{
+   display: flex;
+  justify-content: center;
+
+
+  
+}
+.orgImg{
+  width: 1050px;
+  margin-top: 150px;
+  border-radius: 10px;
+  height: 600px;
+ box-shadow: 0px 4px 10px rgba(0,0,0 ,0.25);
+  position: absolute;
+}
