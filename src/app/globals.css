@@ -29,10 +29,13 @@
   width: 6px;
   height:900px;
   position: absolute;
+  opacity : 0.2;
   margin-left: 400px;
 }
 
 .right-line{
+  opacity : 0.2;
+
   background : linear-gradient(to bottom ,  oklch(87.2% 0.01 258.338) , white);
   size: 3px;
   width: 6px;
